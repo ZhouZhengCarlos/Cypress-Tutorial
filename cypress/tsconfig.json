@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "lib": ["es5", "dom"],
+      "types": ["cypress"],
+      "baseUrl": ".",
+      "paths": {
+        "@/*": ["*"],
+        "@pageobjects/*": ["integration/pages/*"],
+        "@fixtures/*": ["fixtures/*"],
+        "@specs/*": ["integration/specs/*"]
+      }
+    },
+    "include": ["**/*.ts"],
+
+  }
